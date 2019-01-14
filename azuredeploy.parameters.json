@@ -1,0 +1,75 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "sqlcloneAdmin"
+    },
+    "sqlStorageAccountName": {
+      "value": "sqlclonestorageacct"
+    },
+    "dcStorageAccountName": {
+      "value": "sqlclonedcstorageacct"
+    },
+    "adminPassword": {
+      "value": "e0*Jwc35ah$O3*0e"
+    },
+    "domainName": {
+      "value": "sqlclone.local"
+    },
+    "sqlServerServiceAccountPassword": {
+      "value": "e0*Jwc35ah$O3*0e"
+    },
+    "virtualNetworkAddressRange": {
+      "value": "10.21.1.0/16"
+    },
+    "staticSubnet": {
+      "value": "10.21.1.0/24"
+    },
+    "sqlSubnet": {
+      "value": "10.21.2.0/26"
+    },
+    "adPDCNICIPAddress": {
+      "value": "10.21.1.4"
+    },
+    "adBDCNICIPAddress": {
+      "value": "10.21.1.5"
+    },
+    "sqlLBIPAddress": {
+      "value": "10.21.2.9"
+    },
+    "virtualNetworkName": {
+      "value": "sqlCloneVnet"
+    },
+    "sqlAOAGName": {
+      "value": "sqlclone-alwayson-ag"
+    },
+    "sqlAOListenerName": {
+      "value": "sqlclone-alwayson-ag-listener"
+    },
+    "sqlServerVersion": {
+      "value": "SQL2016-WS2012R2"
+    },
+    "deploymentPrefix": {
+      "value": "rgclone"
+    },
+    "adVMSize": {
+      "value": "Standard_DS1_v2"
+    },
+    "sqlVMSize": {
+      "value": "Standard_DS4_v2"
+    },
+    "witnessVMSize": {
+      "value": "Standard_DS1_v2"
+    },
+    "_artifactsLocationSasToken": {
+      "value": "e0*Jwc35ah$O3*0e"
+    },
+    "virtualMachineName": {
+      "value": "demoVMName"
+    },
+    "virtualMachineLocation": {
+      "value": "demoVMLocation"
+    }
+  }
+}
